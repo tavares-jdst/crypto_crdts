@@ -1,0 +1,1266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="crypto_crdts:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="805903ee-0747-4f3a-bba4-2a05efb88e66" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/crdts/secure/cryptoschemes/Deterministic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crdts/secure/cryptoschemes/Probabilistic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/crypto_crdts_jar/crypto_crdts.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/crypto_crdts_jar/crypto_crdts.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/benchmarks/lists/LWWSecureListBenchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/crypto_crdts/benchmarks/lists/LWWSecureListBenchmark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/benchmarks/lists/OURSecureListBenchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/crypto_crdts/benchmarks/lists/OURSecureListBenchmark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/benchmarks/maps/SecureLWWMapBenchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/crypto_crdts/benchmarks/maps/SecureLWWMapBenchmark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/benchmarks/maps/SecureOURMapBenchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/crypto_crdts/benchmarks/maps/SecureOURMapBenchmark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/benchmarks/registers/SecureRegisterBenchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/crypto_crdts/benchmarks/registers/SecureRegisterBenchmark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/benchmarks/sets/SecureGOnlySetBenchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/crypto_crdts/benchmarks/sets/SecureGOnlySetBenchmark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/benchmarks/sets/SecureLWWSetBenchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/crypto_crdts/benchmarks/sets/SecureLWWSetBenchmark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/benchmarks/sets/SecureOURSetBenchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/crypto_crdts/benchmarks/sets/SecureOURSetBenchmark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/client/stubs/CryptoBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/crypto_crdts/client/stubs/CryptoBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/client/stubs/GSetStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/crypto_crdts/client/stubs/GSetStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/client/stubs/LWWMapStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/crypto_crdts/client/stubs/LWWMapStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/client/stubs/LWWSetStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/crypto_crdts/client/stubs/LWWSetStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/client/stubs/ListStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/crypto_crdts/client/stubs/ListStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/client/stubs/MapStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/crypto_crdts/client/stubs/MapStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/client/stubs/OURMapStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/crypto_crdts/client/stubs/OURMapStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/client/stubs/OURSetStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/crypto_crdts/client/stubs/OURSetStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/client/stubs/RegisterStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/crypto_crdts/client/stubs/RegisterStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/client/stubs/SetStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/crypto_crdts/client/stubs/SetStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/crdts/secure/cryptoschemes/hj/mlib/HelpSerial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/crdts/secure/cryptoschemes/hj/mlib/HomoDet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/crdts/secure/cryptoschemes/hj/mlib/HomoRand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/crdts/secure/cryptoschemes/hj/mlib/HomoRandAESPkcs7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/crdts/secure/cryptoschemes/hj/mlib/PaillierKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/crdts/secure/cryptoschemes/hj/mlib/RandomKeyIv.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/crdts/simple/Counter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/crypto_crdts/crdts/simple/Counter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/crdts/simple/CounterV2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/crdts/simple/LWWListV2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/crdts/simple/OURSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/crypto_crdts/crdts/simple/OURSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/helpers/ComparableByteArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/crypto_crdts/helpers/ComparableByteArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/tests/client/CounterStubTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/tests/client/GSetStubTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/tests/client/LWWListStubTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/tests/client/LWWMapStubTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/tests/client/LWWSetStubTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/tests/client/OURListStubTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/tests/client/OURMapStubTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/tests/client/OURSetStubTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/tests/client/RegisterStubTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/tests/crdts/secure/SecureCounterTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/tests/crdts/secure/SecureCounterV2Tests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/tests/crdts/secure/SecureGSetTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/tests/crdts/secure/SecureLWWListTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/tests/crdts/secure/SecureLWWMapTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/tests/crdts/secure/SecureLWWSetTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/tests/crdts/secure/SecureOURListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/tests/crdts/secure/SecureOURMapTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/tests/crdts/secure/SecureOURSetTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/tests/crdts/secure/SecureRegisterTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/crypto_crdts/tests/crdts/simple/CounterV2Tests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/benchmarks/counters/CounterBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/benchmarks/counters/CounterBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/benchmarks/counters/SecureCounterBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/benchmarks/counters/SecureCounterBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/benchmarks/helpers/CounterParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/benchmarks/helpers/CounterParams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/benchmarks/helpers/Params.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/benchmarks/helpers/Params.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/benchmarks/lists/LWWListBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/benchmarks/lists/LWWListBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/benchmarks/lists/LWWSecureListBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/benchmarks/lists/LWWSecureListBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/benchmarks/lists/OURListBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/benchmarks/lists/OURListBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/benchmarks/lists/OURSecureListBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/benchmarks/lists/OURSecureListBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/benchmarks/maps/LWWMapBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/benchmarks/maps/LWWMapBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/benchmarks/maps/OURMapBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/benchmarks/maps/OURMapBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/benchmarks/maps/SecureLWWMapBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/benchmarks/maps/SecureLWWMapBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/benchmarks/maps/SecureOURMapBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/benchmarks/maps/SecureOURMapBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/benchmarks/registers/RegisterBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/benchmarks/registers/RegisterBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/benchmarks/registers/SecureRegisterBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/benchmarks/registers/SecureRegisterBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/benchmarks/sets/GOnlySetBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/benchmarks/sets/GOnlySetBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/benchmarks/sets/LWWSetBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/benchmarks/sets/LWWSetBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/benchmarks/sets/OURSetBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/benchmarks/sets/OURSetBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/benchmarks/sets/SecureGOnlySetBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/benchmarks/sets/SecureGOnlySetBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/benchmarks/sets/SecureLWWSetBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/benchmarks/sets/SecureLWWSetBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/benchmarks/sets/SecureOURSetBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/benchmarks/sets/SecureOURSetBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/stubs/CryptoBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/stubs/CryptoBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/stubs/GSetStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/stubs/GSetStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/stubs/LWWMapStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/stubs/LWWMapStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/stubs/LWWSetStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/stubs/LWWSetStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/stubs/ListStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/stubs/ListStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/stubs/MapStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/stubs/MapStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/stubs/OURMapStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/stubs/OURMapStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/stubs/OURSetStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/stubs/OURSetStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/stubs/RegisterStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/stubs/RegisterStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/stubs/SetStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/stubs/SetStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crdts/secure/cryptoschemes/Paillier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crdts/secure/cryptoschemes/Paillier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crdts/secure/cryptoschemes/hj/mlib/HelpSerial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crdts/secure/cryptoschemes/hj/mlib/HomoDet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crdts/secure/cryptoschemes/hj/mlib/HomoRand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crdts/secure/cryptoschemes/hj/mlib/HomoRandAESPkcs7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crdts/secure/cryptoschemes/hj/mlib/PaillierKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crdts/secure/cryptoschemes/hj/mlib/RandomKeyIv.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crdts/simple/GSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crdts/simple/GSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crdts/simple/OURSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crdts/simple/OURSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/ComparableByteArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/ComparableByteArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/client/CounterStubTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/client/CounterStubTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/client/GSetStubTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/client/GSetStubTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/client/LWWListStubTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/client/LWWListStubTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/client/LWWMapStubTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/client/LWWMapStubTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/client/LWWSetStubTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/client/LWWSetStubTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/client/OURListStubTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/client/OURListStubTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/client/OURMapStubTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/client/OURMapStubTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/client/OURSetStubTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/client/OURSetStubTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/client/RegisterStubTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/client/RegisterStubTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/crdts/secure/SecureCounterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/crdts/secure/SecureCounterTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/crdts/secure/SecureCounterV2Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/crdts/secure/SecureCounterV2Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/crdts/secure/SecureGSetTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/crdts/secure/SecureGSetTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/crdts/secure/SecureLWWListTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/crdts/secure/SecureLWWListTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/crdts/secure/SecureLWWMapTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/crdts/secure/SecureLWWMapTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/crdts/secure/SecureLWWSetTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/crdts/secure/SecureLWWSetTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/crdts/secure/SecureOURListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/crdts/secure/SecureOURListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/crdts/secure/SecureOURMapTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/crdts/secure/SecureOURMapTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/crdts/secure/SecureOURSetTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/crdts/secure/SecureOURSetTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/crdts/secure/SecureRegisterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/crdts/secure/SecureRegisterTests.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-129833763">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.115" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="java" value="217" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="217" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="13" />
+          <entry key="java" value="4554" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="4554" />
+          <entry key="PLAIN_TEXT" value="13" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/benchmarks/lists/LWWListBenchmark.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>nion</find>
+      <find>counter</find>
+      <find>operation</find>
+      <find>getsta</find>
+      <find>getState</find>
+      <find>currentTimeMillis</find>
+      <find>Makes no sense</find>
+      <find>MAP</find>
+      <find>sys</find>
+      <find>system.out</find>
+      <find>executeOUR</find>
+      <find>op/s</find>
+      <find>ops/s</find>
+      <find>elems</find>
+      <find>getOrCompute</find>
+      <find>makes no sense</find>
+      <find>getInstance</find>
+      <find>CryptoBean</find>
+      <find>getByte</find>
+      <find>sorted</find>
+      <find>prepareinput</find>
+      <find>prepare</find>
+      <find>getall</find>
+      <find>for(input</find>
+      <find>times</find>
+      <find>encRandom</find>
+      <find>cryptobean</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/tests/client/LWWListStubTests.java" />
+        <option value="$PROJECT_DIR$/src/tests/client/LWWMapStubTests.java" />
+        <option value="$PROJECT_DIR$/src/tests/client/LWWSetStubTests.java" />
+        <option value="$PROJECT_DIR$/src/tests/client/OURListStubTests.java" />
+        <option value="$PROJECT_DIR$/src/tests/client/OURMapStubTests.java" />
+        <option value="$PROJECT_DIR$/src/tests/client/OURSetStubTests.java" />
+        <option value="$PROJECT_DIR$/src/tests/client/RegisterStubTests.java" />
+        <option value="$PROJECT_DIR$/src/tests/crdts/secure/SecureCounterTests.java" />
+        <option value="$PROJECT_DIR$/src/tests/crdts/secure/SecureCounterV2Tests.java" />
+        <option value="$PROJECT_DIR$/src/tests/crdts/secure/SecureGSetTests.java" />
+        <option value="$PROJECT_DIR$/src/tests/crdts/secure/SecureLWWListTests.java" />
+        <option value="$PROJECT_DIR$/src/tests/crdts/secure/SecureLWWMapTests.java" />
+        <option value="$PROJECT_DIR$/src/tests/crdts/secure/SecureOURListTest.java" />
+        <option value="$PROJECT_DIR$/src/tests/crdts/secure/SecureLWWSetTests.java" />
+        <option value="$PROJECT_DIR$/src/tests/crdts/secure/SecureOURMapTests.java" />
+        <option value="$PROJECT_DIR$/src/tests/crdts/secure/SecureOURSetTests.java" />
+        <option value="$PROJECT_DIR$/src/tests/crdts/secure/SecureRegisterTests.java" />
+        <option value="$PROJECT_DIR$/src/client/stubs/OURSetStub.java" />
+        <option value="$PROJECT_DIR$/src/client/stubs/OURMapStub.java" />
+        <option value="$PROJECT_DIR$/src/client/stubs/LWWMapStub.java" />
+        <option value="$PROJECT_DIR$/src/client/stubs/LWWSetStub.java" />
+        <option value="$PROJECT_DIR$/src/client/stubs/GSetStub.java" />
+        <option value="$PROJECT_DIR$/src/client/stubs/CryptoBean.java" />
+        <option value="$PROJECT_DIR$/src/client/stubs/SetStub.java" />
+        <option value="$PROJECT_DIR$/src/client/stubs/RegisterStub.java" />
+        <option value="$PROJECT_DIR$/src/client/stubs/MapStub.java" />
+        <option value="$PROJECT_DIR$/src/client/stubs/ListStub.java" />
+        <option value="$PROJECT_DIR$/src/crdts/secure/cryptoschemes/Probabilistic.java" />
+        <option value="$PROJECT_DIR$/src/crdts/secure/cryptoschemes/Deterministic.java" />
+        <option value="$PROJECT_DIR$/src/benchmarks/Test.java" />
+        <option value="$PROJECT_DIR$/src/crdts/simple/GSet.java" />
+        <option value="$PROJECT_DIR$/src/benchmarks/helpers/Params.java" />
+        <option value="$PROJECT_DIR$/src/benchmarks/helpers/CounterParams.java" />
+        <option value="$PROJECT_DIR$/src/benchmarks/counters/CounterBenchmark.java" />
+        <option value="$PROJECT_DIR$/src/benchmarks/counters/SecureCounterBenchmark.java" />
+        <option value="$PROJECT_DIR$/src/benchmarks/sets/GOnlySetBenchmark.java" />
+        <option value="$PROJECT_DIR$/src/benchmarks/sets/SecureGOnlySetBenchmark.java" />
+        <option value="$PROJECT_DIR$/src/benchmarks/sets/OURSetBenchmark.java" />
+        <option value="$PROJECT_DIR$/src/benchmarks/registers/RegisterBenchmark.java" />
+        <option value="$PROJECT_DIR$/src/benchmarks/registers/SecureRegisterBenchmark.java" />
+        <option value="$PROJECT_DIR$/src/benchmarks/maps/LWWMapBenchmark.java" />
+        <option value="$PROJECT_DIR$/src/benchmarks/maps/OURMapBenchmark.java" />
+        <option value="$PROJECT_DIR$/src/benchmarks/maps/SecureLWWMapBenchmark.java" />
+        <option value="$PROJECT_DIR$/src/benchmarks/maps/SecureOURMapBenchmark.java" />
+        <option value="$PROJECT_DIR$/src/benchmarks/sets/LWWSetBenchmark.java" />
+        <option value="$PROJECT_DIR$/src/benchmarks/lists/LWWListBenchmark.java" />
+        <option value="$PROJECT_DIR$/src/benchmarks/lists/OURListBenchmark.java" />
+        <option value="$PROJECT_DIR$/src/benchmarks/sets/SecureLWWSetBenchmark.java" />
+        <option value="$PROJECT_DIR$/src/benchmarks/lists/OURSecureListBenchmark.java" />
+        <option value="$PROJECT_DIR$/src/benchmarks/sets/SecureOURSetBenchmark.java" />
+        <option value="$PROJECT_DIR$/src/benchmarks/lists/LWWSecureListBenchmark.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="49" />
+    <option name="y" value="-4" />
+    <option name="width" value="1317" />
+    <option name="height" value="772" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="crypto_crdts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crypto_crdts" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="compareTo&#9;PSI&#9;JAVA://crdts.helpers.PosID#compareTo" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536377263649" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\BitBucketRepos\srdts\crypto_crdts\src\benchmarksV2" />
+      <recent name="C:\BitBucketRepos\satcc\crypto_crdts\src\tests\secure" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="crdts.secure.cryptoschemes" />
+      <recent name="tests.crdts.secure" />
+      <recent name="crdts.secure" />
+      <recent name="tests.crdts.simple" />
+      <recent name="crdts.simple" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\BitBucketRepos\srdts\crypto_crdts\src\crdts\helpers" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.LWWListBenchmark">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GOnlySetBenchmark" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="benchmarks.sets.GOnlySetBenchmark" />
+      <module name="crypto_crdts" />
+      <option name="PROGRAM_PARAMETERS" value="3 1000 1000 hello 0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="benchmarks.sets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LWWListBenchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="benchmarks.lists.LWWListBenchmark" />
+      <module name="crypto_crdts" />
+      <option name="PROGRAM_PARAMETERS" value="1 1000 1000 hello 0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="benchmarks.lists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LWWMapBenchmark" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="benchmarks.maps.LWWMapBenchmark" />
+      <module name="crypto_crdts" />
+      <option name="PROGRAM_PARAMETERS" value="5 1000 1000 hello 0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="benchmarks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LWWSecureListBenchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="benchmarks.lists.LWWSecureListBenchmark" />
+      <module name="crypto_crdts" />
+      <option name="PROGRAM_PARAMETERS" value="1 1000 1000 hello 0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="benchmarks.lists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OURMapBenchmark" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="benchmarks.maps.OURMapBenchmark" />
+      <module name="crypto_crdts" />
+      <option name="PROGRAM_PARAMETERS" value="1 1000 1000 hello 0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="benchmarks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OURSecureListBenchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="benchmarks.lists.OURSecureListBenchmark" />
+      <module name="crypto_crdts" />
+      <option name="PROGRAM_PARAMETERS" value="1 1000 1000 hello 0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="benchmarks.lists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecureLWWMapBenchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="benchmarks.maps.SecureLWWMapBenchmark" />
+      <module name="crypto_crdts" />
+      <option name="PROGRAM_PARAMETERS" value="5 1000 1000 hello 0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="benchmarks.maps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecureRegisterBenchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="benchmarks.registers.SecureRegisterBenchmark" />
+      <module name="crypto_crdts" />
+      <option name="PROGRAM_PARAMETERS" value="2 1000 1000 hello 0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="benchmarks.registers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.LWWMapBenchmark" />
+      <item itemvalue="Application.OURMapBenchmark" />
+      <item itemvalue="Application.GOnlySetBenchmark" />
+      <item itemvalue="Application.SecureRegisterBenchmark" />
+      <item itemvalue="Application.SecureLWWMapBenchmark" />
+      <item itemvalue="Application.OURSecureListBenchmark" />
+      <item itemvalue="Application.LWWSecureListBenchmark" />
+      <item itemvalue="Application.LWWListBenchmark" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LWWListBenchmark" />
+        <item itemvalue="Application.LWWSecureListBenchmark" />
+        <item itemvalue="Application.OURSecureListBenchmark" />
+        <item itemvalue="Application.SecureLWWMapBenchmark" />
+        <item itemvalue="Application.SecureRegisterBenchmark" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../projecto_2" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="805903ee-0747-4f3a-bba4-2a05efb88e66" name="Default" comment="" />
+      <created>1526338975140</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526338975140</updated>
+      <workItem from="1526338976704" duration="4601000" />
+      <workItem from="1526345821354" duration="2635000" />
+      <workItem from="1526372185894" duration="30000" />
+      <workItem from="1526374361554" duration="5933000" />
+      <workItem from="1526476542766" duration="7383000" />
+      <workItem from="1526553771479" duration="13455000" />
+      <workItem from="1526580572106" duration="144000" />
+      <workItem from="1526743336614" duration="12090000" />
+      <workItem from="1526825433161" duration="8450000" />
+      <workItem from="1526896093394" duration="4769000" />
+      <workItem from="1526975820112" duration="6359000" />
+      <workItem from="1526994055964" duration="5652000" />
+      <workItem from="1527004767114" duration="710000" />
+      <workItem from="1527071042415" duration="9672000" />
+      <workItem from="1527162367869" duration="681000" />
+      <workItem from="1527601277691" duration="1807000" />
+      <workItem from="1527867202196" duration="1216000" />
+      <workItem from="1528114124902" duration="1320000" />
+      <workItem from="1528159586100" duration="622000" />
+      <workItem from="1528191835057" duration="2237000" />
+      <workItem from="1528235761769" duration="1544000" />
+      <workItem from="1528364311030" duration="4117000" />
+      <workItem from="1528395931707" duration="3010000" />
+      <workItem from="1528493897981" duration="99000" />
+      <workItem from="1528494292914" duration="667000" />
+      <workItem from="1528738653820" duration="15598000" />
+      <workItem from="1528797734345" duration="21825000" />
+      <workItem from="1528848953090" duration="1978000" />
+      <workItem from="1528885489722" duration="9345000" />
+      <workItem from="1528921488110" duration="27765000" />
+      <workItem from="1528967749914" duration="17784000" />
+      <workItem from="1529008580978" duration="12356000" />
+      <workItem from="1529067378073" duration="13925000" />
+      <workItem from="1529087803230" duration="1335000" />
+      <workItem from="1529317368367" duration="8938000" />
+      <workItem from="1529361396010" duration="7889000" />
+      <workItem from="1529402433511" duration="1744000" />
+      <workItem from="1529872140427" duration="2518000" />
+      <workItem from="1529942383902" duration="1814000" />
+      <workItem from="1529960163981" duration="5787000" />
+      <workItem from="1530022008161" duration="4855000" />
+      <workItem from="1530096020250" duration="7911000" />
+      <workItem from="1530192425815" duration="9285000" />
+      <workItem from="1530454029573" duration="9529000" />
+      <workItem from="1530478858987" duration="3701000" />
+      <workItem from="1530519778577" duration="7727000" />
+      <workItem from="1530614123211" duration="442000" />
+      <workItem from="1530620935018" duration="575000" />
+      <workItem from="1530629180035" duration="4016000" />
+      <workItem from="1530645110650" duration="3898000" />
+      <workItem from="1530693374432" duration="10292000" />
+      <workItem from="1530799368623" duration="2542000" />
+      <workItem from="1530916670486" duration="1566000" />
+      <workItem from="1531056850312" duration="20121000" />
+      <workItem from="1531122882036" duration="47000" />
+      <workItem from="1531124561346" duration="3635000" />
+      <workItem from="1531173204262" duration="1533000" />
+      <workItem from="1531175053666" duration="345000" />
+      <workItem from="1531215766964" duration="3793000" />
+      <workItem from="1535898198322" duration="117000" />
+      <workItem from="1536317310711" duration="14992000" />
+      <workItem from="1536353548430" duration="21735000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SecureCounterV2Tests - 2018.07.03 at 11h 42m 12s.xml">
+      <configuration name="SecureCounterV2Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecureCounterV2Tests_testMerge - 2018.07.03 at 13h 29m 20s.xml">
+      <configuration name="SecureCounterV2Tests.testMerge" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecureCounterV2Tests_testMerge - 2018.07.03 at 13h 33m 58s.xml">
+      <configuration name="SecureCounterV2Tests.testMerge" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecureCounterV2Tests_testMerge - 2018.07.03 at 13h 34m 47s.xml">
+      <configuration name="SecureCounterV2Tests.testMerge" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecureCounterV2Tests_testMerge - 2018.07.03 at 13h 37m 47s.xml">
+      <configuration name="SecureCounterV2Tests.testMerge" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecureLWWMapTests - 2018.06.12 at 17h 18m 42s.xml">
+      <configuration name="SecureLWWMapTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecureOURListTest - 2018.06.12 at 16h 02m 16s.xml">
+      <configuration name="SecureOURListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecureOURMapTests - 2018.06.12 at 17h 34m 03s.xml">
+      <configuration name="SecureOURMapTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecureRegisterTests - 2018.06.12 at 18h 54m 05s.xml">
+      <configuration name="SecureRegisterTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecureRegisterTests - 2018.06.12 at 18h 54m 47s.xml">
+      <configuration name="SecureRegisterTests" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="382461000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="49" y="-4" width="1871" height="1084" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12876712" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Learn" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.21966527" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4875549" weight="0.2416318" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4956076" weight="0.23849373" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5124451" side_tool="true" weight="0.4896989" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3253138" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tests/crdts/simple/CounterTests.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tests/crdts/simple/OURSetTests.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tests/crdts/simple/OURSetTests.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tests/crdts/simple/OURSetTests.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tests/crdts/simple/OURSetTests.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/crdts/secure/SecureCounter.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tests/crdts/secure/SecureCounterV2Tests.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/benchmarks/maps/LWWMapBenchmark.java</url>
+          <line>126</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/benchmarks/SecureMapBenchmark.java</url>
+          <line>325</line>
+          <properties class="benchmarks.SecureMapBenchmark">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>this.elems.containsKey(id)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>positives.get(k)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pos</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/tests/client/RegisterStubTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="7" lean-forward="true" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/crdts/secure/SecureCounterTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="30" lean-forward="true" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/crdts/secure/SecureCounterV2Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" column="24" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/crdts/secure/SecureGSetTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="55" column="20" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/crdts/secure/SecureLWWListTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="16" column="15" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/crdts/secure/SecureLWWMapTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="32" column="11" lean-forward="true" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/crdts/secure/SecureOURListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="37" column="45" lean-forward="true" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/crdts/secure/SecureLWWSetTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="14" column="15" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/crdts/secure/SecureOURMapTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="14" column="15" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/crdts/secure/SecureOURSetTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="39" column="38" lean-forward="true" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/crdts/secure/SecureRegisterTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="16" column="15" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/benchmarks/Peanuts.java" />
+    <entry file="file://$PROJECT_DIR$/src/client/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="66" lean-forward="true" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/stubs/OURListStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/stubs/OURSetStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/stubs/OURMapStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/stubs/LWWMapStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/stubs/LWWSetStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/stubs/GSetStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/stubs/CryptoBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers/ComparableByteArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#1036#1037#0" expanded="true" />
+            <element signature="e#1068#1069#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/stubs/SetStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="77" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/stubs/RegisterStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/stubs/MapStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="35" column="71" selection-start-line="35" selection-start-column="71" selection-end-line="35" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/stubs/ListStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/benchmarks/Peanuts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crdts/secure/cryptoschemes/Deterministic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding>
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crdts/secure/cryptoschemes/Probabilistic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="86" column="5" lean-forward="true" selection-start-line="66" selection-start-column="4" selection-end-line="86" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crdts/simple/GSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="81" column="7" lean-forward="true" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
+          <folding>
+            <element signature="e#1423#1424#0" expanded="true" />
+            <element signature="e#1460#1461#0" expanded="true" />
+            <element signature="e#1610#1611#0" expanded="true" />
+            <element signature="e#1639#1640#0" expanded="true" />
+            <element signature="e#2089#2090#0" expanded="true" />
+            <element signature="e#2135#2136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/benchmarks/helpers/Params.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="56" column="41" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="41" />
+          <folding>
+            <element signature="e#1838#1839#0" expanded="true" />
+            <element signature="e#1871#1872#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/benchmarks/helpers/CounterParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/benchmarks/counters/CounterBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="164" column="51" selection-start-line="164" selection-start-column="51" selection-end-line="164" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/benchmarks/counters/SecureCounterBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="724">
+          <caret line="186" column="29" lean-forward="true" selection-start-line="186" selection-start-column="29" selection-end-line="186" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crdts/simple/LWWSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/benchmarks/sets/GOnlySetBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="76" column="33" lean-forward="true" selection-start-line="74" selection-start-column="12" selection-end-line="76" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crdts/simple/OURSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="96" column="35" selection-start-line="96" selection-start-column="35" selection-end-line="96" selection-end-column="35" />
+          <folding>
+            <element signature="e#3073#3074#0" expanded="true" />
+            <element signature="e#3106#3107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/benchmarks/registers/SecureRegisterBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="182" lean-forward="true" selection-start-line="182" selection-end-line="182" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/benchmarks/registers/RegisterBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="99" column="13" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/benchmarks/sets/OURSetBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="62" column="21" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="62" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/benchmarks/maps/OURMapBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/benchmarks/maps/SecureLWWMapBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="257" column="33" lean-forward="true" selection-start-line="237" selection-start-column="11" selection-end-line="257" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/benchmarks/sets/LWWSetBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="103" column="45" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/benchmarks/maps/LWWMapBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="46" column="24" lean-forward="true" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/benchmarks/lists/OURListBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-721">
+          <caret line="208" column="33" selection-start-line="208" selection-start-column="33" selection-end-line="208" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/benchmarks/maps/SecureOURMapBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4874">
+          <caret line="359" lean-forward="true" selection-start-line="359" selection-end-line="359" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/benchmarks/sets/SecureGOnlySetBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="102" column="13" lean-forward="true" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/benchmarks/sets/SecureOURSetBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1066">
+          <caret line="202" column="13" selection-start-line="202" selection-start-column="13" selection-end-line="202" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/benchmarks/sets/SecureLWWSetBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="93" column="36" lean-forward="true" selection-start-line="93" selection-start-column="36" selection-end-line="93" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/benchmarks/lists/OURSecureListBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3165">
+          <caret line="219" lean-forward="true" selection-start-line="205" selection-start-column="11" selection-end-line="219" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/benchmarks/lists/LWWSecureListBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3825">
+          <caret line="261" column="73" selection-start-line="261" selection-start-column="73" selection-end-line="261" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/benchmarks/lists/LWWListBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>crypto_crdts:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>crypto_crdts</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
